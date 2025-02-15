@@ -16,7 +16,7 @@ public class Main {
             System.out.print("Введите число от 0 до 100 : ");
             int n = inNum.nextInt();         //  Ввод числа для проверки
             int flag = 0;
-            for (int k = 2; k < n; k++) {         //  цикл проверки на простоту
+            for (int k = 2; k <= Math.sqrt(n); k++) {         //  цикл проверки на простоту
                 if (n % k == 0) {
                     flag = 1;
                     break;
@@ -58,7 +58,7 @@ public class Main {
             for (int j = 0; j < 10; j++) {
                 if (tmp <= n) {
                     flag = 1;
-                    for (int k = 2; k < tmp; k++) {
+                    for (int k = 2; k <= Math.sqrt(tmp); k++) {
 
                         if (tmp % k == 0) {
                             flag = 0;
