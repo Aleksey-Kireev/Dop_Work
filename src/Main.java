@@ -1,4 +1,4 @@
-import DZ_3.DZ_3;
+import DZ_Dop1.DZ_Dop1;
 
 import java.util.Scanner;
 import java.util.Arrays;
@@ -118,7 +118,7 @@ public class Main {
             task4();                            //      Вызываем метод выполнения задания 4
         }
 
-        DZ_3.genArray_DZ_3();
+        DZ_Dop1.main(args);
 
 
     }
